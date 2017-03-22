@@ -418,7 +418,7 @@
 				DEVELOPMENT_TEAM = 6FVWXKY4X6;
 				INFOPLIST_FILE = CorRquestJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ronilson.CorRquestJson;
+				PRODUCT_BUNDLE_IDENTIFIER = ronilson.ColorJson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,7 +431,7 @@
 				DEVELOPMENT_TEAM = 6FVWXKY4X6;
 				INFOPLIST_FILE = CorRquestJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ronilson.CorRquestJson;
+				PRODUCT_BUNDLE_IDENTIFIER = ronilson.ColorJson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

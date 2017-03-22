@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F5F64641E82C7710069C28B"
-               BuildableName = "CorRquestJson.app"
-               BlueprintName = "CorRquestJson"
-               ReferencedContainer = "container:CorRquestJson.xcodeproj">
+               BlueprintIdentifier = "2E4FEFDA19575BE100351305"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "SwiftyJSON iOS"
+               ReferencedContainer = "container:SwiftyJSON.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2E4FEFE519575BE100351305"
+               BuildableName = "SwiftyJSON iOS Tests.xctest"
+               BlueprintName = "SwiftyJSON iOS Tests"
+               ReferencedContainer = "container:SwiftyJSON.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F5F64781E82C7720069C28B"
-               BuildableName = "CorRquestJsonTests.xctest"
-               BlueprintName = "CorRquestJsonTests"
-               ReferencedContainer = "container:CorRquestJson.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F5F64831E82C7720069C28B"
-               BuildableName = "CorRquestJsonUITests.xctest"
-               BlueprintName = "CorRquestJsonUITests"
-               ReferencedContainer = "container:CorRquestJson.xcodeproj">
+               BlueprintIdentifier = "2E4FEFE519575BE100351305"
+               BuildableName = "SwiftyJSON iOS Tests.xctest"
+               BlueprintName = "SwiftyJSON iOS Tests"
+               ReferencedContainer = "container:SwiftyJSON.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F5F64641E82C7710069C28B"
-            BuildableName = "CorRquestJson.app"
-            BlueprintName = "CorRquestJson"
-            ReferencedContainer = "container:CorRquestJson.xcodeproj">
+            BlueprintIdentifier = "2E4FEFDA19575BE100351305"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON iOS"
+            ReferencedContainer = "container:SwiftyJSON.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -71,16 +75,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F5F64641E82C7710069C28B"
-            BuildableName = "CorRquestJson.app"
-            BlueprintName = "CorRquestJson"
-            ReferencedContainer = "container:CorRquestJson.xcodeproj">
+            BlueprintIdentifier = "2E4FEFDA19575BE100351305"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON iOS"
+            ReferencedContainer = "container:SwiftyJSON.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +93,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F5F64641E82C7710069C28B"
-            BuildableName = "CorRquestJson.app"
-            BlueprintName = "CorRquestJson"
-            ReferencedContainer = "container:CorRquestJson.xcodeproj">
+            BlueprintIdentifier = "2E4FEFDA19575BE100351305"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON iOS"
+            ReferencedContainer = "container:SwiftyJSON.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
