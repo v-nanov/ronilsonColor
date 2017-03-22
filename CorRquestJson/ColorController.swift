@@ -75,7 +75,7 @@ class ColorController: UITableViewController {
         
         let title = UILabel(frame: CGRect(x: 20, y: 0, width: header.bounds.width - 40, height: header.bounds.height))
         title.text = corSction?.coresTitle
-       title.font = UIFont(name: "RobotoCondensed-Bold", size: 20)
+        title.font = UIFont(name: "RobotoCondensed-Bold", size: 20)
         title.textColor = UIColor.darkGray
         
         header.addSubview(title)

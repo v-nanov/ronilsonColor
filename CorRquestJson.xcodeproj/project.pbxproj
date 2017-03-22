@@ -27,6 +27,9 @@
 		9F5F64B41E82CAA00069C28B /* Cor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F64B21E82CAA00069C28B /* Cor.swift */; };
 		9F5F64B51E82CAA00069C28B /* CoresSction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F64B31E82CAA00069C28B /* CoresSction.swift */; };
 		9F5F64B71E82CAAE0069C28B /* identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F64B61E82CAAE0069C28B /* identifier.swift */; };
+		9F5F64BC1E82CD270069C28B /* robotoCondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F64B91E82CD270069C28B /* robotoCondensedBold.ttf */; };
+		9F5F64BD1E82CD270069C28B /* robotoCondensedLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F64BA1E82CD270069C28B /* robotoCondensedLight.ttf */; };
+		9F5F64BE1E82CD270069C28B /* robotoCondensedRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F64BB1E82CD270069C28B /* robotoCondensedRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		9F5F64B21E82CAA00069C28B /* Cor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cor.swift; sourceTree = "<group>"; };
 		9F5F64B31E82CAA00069C28B /* CoresSction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoresSction.swift; sourceTree = "<group>"; };
 		9F5F64B61E82CAAE0069C28B /* identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = identifier.swift; sourceTree = "<group>"; };
+		9F5F64B91E82CD270069C28B /* robotoCondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoCondensedBold.ttf; sourceTree = "<group>"; };
+		9F5F64BA1E82CD270069C28B /* robotoCondensedLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoCondensedLight.ttf; sourceTree = "<group>"; };
+		9F5F64BB1E82CD270069C28B /* robotoCondensedRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoCondensedRegular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,7 @@
 		9F5F64671E82C7710069C28B /* CorRquestJson */ = {
 			isa = PBXGroup;
 			children = (
+				9F5F64B81E82CD1A0069C28B /* resources */,
 				9F5F64A31E82CA2C0069C28B /* application */,
 				9F5F64A21E82CA240069C28B /* protocols */,
 				9F5F64A11E82CA190069C28B /* models */,
@@ -230,6 +237,16 @@
 				9F5F64741E82C7710069C28B /* Info.plist */,
 			);
 			name = application;
+			sourceTree = "<group>";
+		};
+		9F5F64B81E82CD1A0069C28B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F64B91E82CD270069C28B /* robotoCondensedBold.ttf */,
+				9F5F64BA1E82CD270069C28B /* robotoCondensedLight.ttf */,
+				9F5F64BB1E82CD270069C28B /* robotoCondensedRegular.ttf */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5F64BE1E82CD270069C28B /* robotoCondensedRegular.ttf in Resources */,
+				9F5F64BC1E82CD270069C28B /* robotoCondensedBold.ttf in Resources */,
+				9F5F64BD1E82CD270069C28B /* robotoCondensedLight.ttf in Resources */,
 				9F5F64731E82C7710069C28B /* LaunchScreen.storyboard in Resources */,
 				9F5F64701E82C7710069C28B /* Assets.xcassets in Resources */,
 				9F5F646E1E82C7710069C28B /* Main.storyboard in Resources */,
