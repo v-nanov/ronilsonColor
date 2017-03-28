@@ -15,9 +15,9 @@ class CorService {
         
         Service.sharedInstance.APIRequest(method: .GET, endPoint: .corUrl,
                                           
-                                          success: { result in
+        success: { result in
                                             
-                                            success(self.parseCores(json: JSON(result)))
+        success(self.parseCores(json: JSON(result)))
                                             
         }, failure: { failure in
             
@@ -45,9 +45,10 @@ class CorService {
         let coresService = CoresService()
         
         let id = json["id"].intValue
-        let coresTitles = json["coresTitles"].stringValue
+        let coresSction = json["coresSction"].stringValue
+        let valor = json["valor"].stringValue
         
-        var cor = CoresSction(id: id, coresTitle: coresTitles)
+        var cor = CoresSction(id: id, coresSction: coresSction, valor: valor)
         cor.cores = coresService.coresService(json: json["cores"])
         return cor
     }

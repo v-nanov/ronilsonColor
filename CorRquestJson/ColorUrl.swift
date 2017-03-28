@@ -20,6 +20,6 @@ extension ColorUrl {
 
 enum RequestType: String {
     
-    case corUrl = "https://private-ec4102-colorapi1.apiary-mock.com/questions"
+    case corUrl = "https://private-ec4102-colorapi1.apiary-mock.com/color"
     
 }

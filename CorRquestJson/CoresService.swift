@@ -29,6 +29,7 @@ struct CoresService {
         
         let id = json["id"].stringValue
         let cor = json["cor"].stringValue
+
         
         let cores = Cor(id: id, cor: cor)
         

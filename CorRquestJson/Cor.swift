@@ -11,7 +11,7 @@ import Foundation
 struct Cor{
     
     var id = String()
-    var cor : String?
+    var cor = String()
     
     init(id: String, cor: String) {
         

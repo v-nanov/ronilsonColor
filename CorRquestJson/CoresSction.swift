@@ -11,12 +11,14 @@ import Foundation
 struct CoresSction{
     
     var id : Int
-    var coresTitle = String()
+    var coresSction = String()
+    var valor = String()
     var cores = [Cor]()
     
-    init(id : Int, coresTitle: String) {
+    init(id : Int, coresSction: String, valor: String) {
         
         self.id = id
-        self.coresTitle = coresTitle
+        self.coresSction = coresSction
+        self.valor = valor
     }
 }

@@ -30,6 +30,7 @@
 		9F5F64BC1E82CD270069C28B /* robotoCondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F64B91E82CD270069C28B /* robotoCondensedBold.ttf */; };
 		9F5F64BD1E82CD270069C28B /* robotoCondensedLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F64BA1E82CD270069C28B /* robotoCondensedLight.ttf */; };
 		9F5F64BE1E82CD270069C28B /* robotoCondensedRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F64BB1E82CD270069C28B /* robotoCondensedRegular.ttf */; };
+		9F5F64C01E82D3310069C28B /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F64BF1E82D3310069C28B /* ColorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		9F5F64B91E82CD270069C28B /* robotoCondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoCondensedBold.ttf; sourceTree = "<group>"; };
 		9F5F64BA1E82CD270069C28B /* robotoCondensedLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoCondensedLight.ttf; sourceTree = "<group>"; };
 		9F5F64BB1E82CD270069C28B /* robotoCondensedRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoCondensedRegular.ttf; sourceTree = "<group>"; };
+		9F5F64BF1E82D3310069C28B /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				9F5F646C1E82C7710069C28B /* Main.storyboard */,
 				9F5F64711E82C7710069C28B /* LaunchScreen.storyboard */,
+				9F5F64BF1E82D3310069C28B /* ColorCell.swift */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				9F5F64B11E82CA7D0069C28B /* CoresService.swift in Sources */,
 				9F5F64A51E82CA4A0069C28B /* ColorController.swift in Sources */,
 				9F5F64AC1E82CA7D0069C28B /* Do.swift in Sources */,
+				9F5F64C01E82D3310069C28B /* ColorCell.swift in Sources */,
 				9F5F64AE1E82CA7D0069C28B /* Requesting.swift in Sources */,
 				9F5F64AD1E82CA7D0069C28B /* ColorUrl.swift in Sources */,
 				9F5F64B41E82CAA00069C28B /* Cor.swift in Sources */,
